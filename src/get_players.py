@@ -26,31 +26,34 @@ def retrieve_players_stats( game_id, data_dir ):
 
             for player in player_table.xpath('tr[not(@class="highlight")]'):
 
-                player_stats = collections.OrderedDict()
-                player_stats['GAME_ID']= game_id
+                try:
+                    player_stats = collections.OrderedDict()
+                    player_stats['GAME_ID']= game_id
 
+                    player_stats['TEAM']=team.xpath('div[@class="table-caption"]/text()')[0].strip()
+                    player_stats['NAME']=player.xpath('td[@class="name"]/a/text()')[0].strip()
+                    player_stats['POSITION']=player.xpath('td[@class="name"]/span[@class="position"]/text()')[0].strip()
+                    player_stats['STARTER']=team.xpath('table/thead/tr/th[@class="name"]/text()')[index].strip() == 'starters'
 
-                player_stats['TEAM']=team.xpath('div[@class="table-caption"]/text()')[0].strip()
-                player_stats['NAME']=player.xpath('td[@class="name"]/a/text()')[0].strip()
-                player_stats['POSITION']=player.xpath('td[@class="name"]/span[@class="position"]/text()')[0].strip()
-                player_stats['STARTER']=team.xpath('table/thead/tr/th[@class="name"]/text()')[index].strip() == 'starters'
+                    player_stats['MIN']=player.xpath('td[@class="min"]/text()|td[@class="dnp"]/text()')[0].strip()
+                    player_stats['FG']=player.xpath('td[@class="fg"]/text()|td[@class="dnp"]/text()')[0].strip()
+                    player_stats['3PT']=player.xpath('td[@class="3pt"]/text()|td[@class="dnp"]/text()')[0].strip()
+                    player_stats['FT']=player.xpath('td[@class="ft"]/text()|td[@class="dnp"]/text()')[0].strip()
+                    player_stats['OREB']=player.xpath('td[@class="oreb"]/text()|td[@class="dnp"]/text()')[0].strip()
+                    player_stats['DREB']=player.xpath('td[@class="dreb"]/text()|td[@class="dnp"]/text()')[0].strip()
+                    player_stats['REB']=player.xpath('td[@class="reb"]/text()|td[@class="dnp"]/text()')[0].strip()
+                    player_stats['AST']=player.xpath('td[@class="ast"]/text()|td[@class="dnp"]/text()')[0].strip()
+                    player_stats['STL']=player.xpath('td[@class="stl"]/text()|td[@class="dnp"]/text()')[0].strip()
+                    player_stats['BLK']=player.xpath('td[@class="blk"]/text()|td[@class="dnp"]/text()')[0].strip()
+                    player_stats['TO']=player.xpath('td[@class="to"]/text()|td[@class="dnp"]/text()')[0].strip()
+                    player_stats['PF']=player.xpath('td[@class="pf"]/text()|td[@class="dnp"]/text()')[0].strip()
+                    player_stats['+/-']=player.xpath('td[@class="plusminus"]/text()|td[@class="dnp"]/text()')[0].strip()
+                    player_stats['PTS']=player.xpath('td[@class="pts"]/text()|td[@class="dnp"]/text()')[0].strip()
 
-                player_stats['MIN']=player.xpath('td[@class="min"]/text()|td[@class="dnp"]/text()')[0].strip()
-                player_stats['FG']=player.xpath('td[@class="fg"]/text()|td[@class="dnp"]/text()')[0].strip()
-                player_stats['3PT']=player.xpath('td[@class="3pt"]/text()|td[@class="dnp"]/text()')[0].strip()
-                player_stats['FT']=player.xpath('td[@class="ft"]/text()|td[@class="dnp"]/text()')[0].strip()
-                player_stats['OREB']=player.xpath('td[@class="oreb"]/text()|td[@class="dnp"]/text()')[0].strip()
-                player_stats['DREB']=player.xpath('td[@class="dreb"]/text()|td[@class="dnp"]/text()')[0].strip()
-                player_stats['REB']=player.xpath('td[@class="reb"]/text()|td[@class="dnp"]/text()')[0].strip()
-                player_stats['AST']=player.xpath('td[@class="ast"]/text()|td[@class="dnp"]/text()')[0].strip()
-                player_stats['STL']=player.xpath('td[@class="stl"]/text()|td[@class="dnp"]/text()')[0].strip()
-                player_stats['BLK']=player.xpath('td[@class="blk"]/text()|td[@class="dnp"]/text()')[0].strip()
-                player_stats['TO']=player.xpath('td[@class="to"]/text()|td[@class="dnp"]/text()')[0].strip()
-                player_stats['PF']=player.xpath('td[@class="pf"]/text()|td[@class="dnp"]/text()')[0].strip()
-                player_stats['+/-']=player.xpath('td[@class="plusminus"]/text()|td[@class="dnp"]/text()')[0].strip()
-                player_stats['PTS']=player.xpath('td[@class="pts"]/text()|td[@class="dnp"]/text()')[0].strip()
-
-                player_stats_list.append(player_stats)
+                    player_stats_list.append(player_stats)
+                except:
+                    print ("Error retrieving data for game " + game_id)
+                    pass
 
     if player_stats_list :
         with open(str(data_dir)+ '/players_'+str(game_id)+'.csv', 'wb') as f:
