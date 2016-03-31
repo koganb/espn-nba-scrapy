@@ -3,19 +3,41 @@ import requests
 import collections
 from lxml import html
 import csv
+import logging
+
+
+logger = logging.getLogger('retrieve_players_stats')
+logger.setLevel(logging.DEBUG)
+
+# create console handler and set level to debug
+ch = logging.StreamHandler()
+
+# create formatter
+formatter = logging.Formatter('%(asctime)s %(levelname)s: %(message)s', datefmt='%m/%d/%Y %I:%M:%S')
+
+# add formatter to ch
+ch.setFormatter(formatter)
+
+# add ch to logger
+logger.addHandler(ch)
+
 
 
 BASE_URL = 'http://espn.go.com/nba/boxscore?gameId={0}'
 
+players_counter = 0
+
 def retrieve_players_stats( game_id, data_dir ):
 
     url = BASE_URL.format(game_id)
+
     try:
+        logger.debug("Getting url %s, counter %s", url, players_counter)
         request = requests.get(url)
     except:
-        print ("Error retrieving URL: " + url)
-        return 
-    
+        logger.error ("Error retrieving URL: %s", url)
+        return
+
     tree = html.fromstring(request.text)
 
     player_stats_list = list()
@@ -52,8 +74,9 @@ def retrieve_players_stats( game_id, data_dir ):
 
                     player_stats_list.append(player_stats)
                 except:
-                    print ("Error retrieving data for game " + game_id)
+                    logger.error ("Error retrieving data for game: %s",game_id)
                     pass
+
 
     if player_stats_list :
         with open(str(data_dir)+ '/players_'+str(game_id)+'.csv', 'wb') as f:
@@ -63,11 +86,15 @@ def retrieve_players_stats( game_id, data_dir ):
             for player_stats in player_stats_list:
                 w.writerow(player_stats)
 
+        logger.info ("Finished retrieving data for game: %s",game_id)
+
 
 def main() :
     parser = argparse.ArgumentParser()
     parser.add_argument('--data_dir', help='data directory', required=True)
     parser.add_argument('--game_id', help='game id', required=False)
+    parser.add_argument('--start_rec_ind', help='game id', required=False, default=1, type=int)
+    parser.add_argument('--end_rec_ind', help='game id', required=False, default=100000, type=int)
     args = parser.parse_args()
 
 
@@ -75,14 +102,19 @@ def main() :
         retrieve_players_stats(args.game_id, args.data_dir)
 
     else:
-         with open(args.data_dir+'/games.csv', 'rb') as gamesfile:
+        global  players_counter
+
+        with open(args.data_dir+'/games.csv', 'rb') as gamesfile:
             games_reader = csv.DictReader(gamesfile)
             next(games_reader, None)    #skip header
 
             for row in games_reader:
-                game_id = row['GAME_ID']
-                if (game_id != 'NA'):
-                    retrieve_players_stats(game_id, args.data_dir)
+                players_counter += 1
+
+                if (players_counter >= args.start_rec_ind and players_counter <= args.end_rec_ind) :
+                    game_id = row['GAME_ID']
+                    if (game_id != 'NA'):
+                        retrieve_players_stats(game_id, args.data_dir)
 
 
 if __name__ == "__main__":
