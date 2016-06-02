@@ -46,7 +46,7 @@ def retrieve_games_stats(year, team_pref1, team_pref2, data_dir, years_back):
                 home_or_visit = game.xpath('td/ul/li[@class="game-status"]/text()')[0].strip()
                 opponent_team_href = game.xpath('td/ul/li[@class="team-name"]/a/@href')[0].strip()
                 opponent_team = str(opponent_team_href).split('/')[-1]
-                score = re.sub('[^0-9-]', '',game.xpath('td/ul/li[@class="score"]/a/text()')[0].strip())
+                score = re.sub(' .*', '',game.xpath('td/ul/li[@class="score"]/a/text()')[0].strip())
                 first_score = score.split('-')[0] if SCORE_PATTERN.match(score) else 'NA'
                 second_score = score.split('-')[1] if SCORE_PATTERN.match(score) else 'NA'
 

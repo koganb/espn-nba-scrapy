@@ -1,7 +1,7 @@
 GAME_ID,DATE,PLAY_SEASON,HOME_TEAM,VISIT_TEAM,HOME_TEAM_SCORE,VISIT_TEAM_SCORE
 311228001,"Dec 28, 2011",2011/2012,atlanta-hawks,washington-wizards,101,83
 311230001,"Dec 30, 2011",2011/2012,atlanta-hawks,brooklyn-nets,105,98
-320105001,"Jan 5, 2012",2011/2012,atlanta-hawks,miami-heat,116,1093
+320105001,"Jan 5, 2012",2011/2012,atlanta-hawks,miami-heat,109,116
 320107001,"Jan 7, 2012",2011/2012,atlanta-hawks,chicago-bulls,109,94
 320112001,"Jan 12, 2012",2011/2012,atlanta-hawks,charlotte-hornets,111,81
 320114001,"Jan 14, 2012",2011/2012,atlanta-hawks,minnesota-timberwolves,93,91
@@ -21,7 +21,7 @@ GAME_ID,DATE,PLAY_SEASON,HOME_TEAM,VISIT_TEAM,HOME_TEAM_SCORE,VISIT_TEAM_SCORE
 320319001,"Mar 19, 2012",2011/2012,atlanta-hawks,boston-celtics,76,79
 320321001,"Mar 21, 2012",2011/2012,atlanta-hawks,cleveland-cavaliers,103,102
 320323001,"Mar 23, 2012",2011/2012,atlanta-hawks,brooklyn-nets,93,84
-320325001,"Mar 25, 2012",2011/2012,atlanta-hawks,utah-jazz,1334,139
+320325001,"Mar 25, 2012",2011/2012,atlanta-hawks,utah-jazz,139,133
 320328001,"Mar 28, 2012",2011/2012,atlanta-hawks,chicago-bulls,77,98
 320330001,"Mar 30, 2012",2011/2012,atlanta-hawks,new-york-knicks,100,90
 320404001,"Apr 4, 2012",2011/2012,atlanta-hawks,charlotte-hornets,120,93
@@ -46,14 +46,14 @@ GAME_ID,DATE,PLAY_SEASON,HOME_TEAM,VISIT_TEAM,HOME_TEAM_SCORE,VISIT_TEAM_SCORE
 400278057,"Dec 15, 2012",2012/2013,atlanta-hawks,golden-state-warriors,93,115
 400278091,"Dec 19, 2012",2012/2013,atlanta-hawks,oklahoma-city-thunder,92,100
 400278111,"Dec 22, 2012",2012/2013,atlanta-hawks,chicago-bulls,92,75
-400278134,"Dec 26, 2012",2012/2013,atlanta-hawks,detroit-pistons,1192,126
+400278134,"Dec 26, 2012",2012/2013,atlanta-hawks,detroit-pistons,126,119
 400278158,"Dec 29, 2012",2012/2013,atlanta-hawks,indiana-pacers,109,100
 400278209,"Jan 5, 2013",2012/2013,atlanta-hawks,boston-celtics,81,89
 400278253,"Jan 11, 2013",2012/2013,atlanta-hawks,utah-jazz,103,95
 400278292,"Jan 16, 2013",2012/2013,atlanta-hawks,brooklyn-nets,109,95
 400278314,"Jan 19, 2013",2012/2013,atlanta-hawks,san-antonio-spurs,93,98
 400278328,"Jan 21, 2013",2012/2013,atlanta-hawks,minnesota-timberwolves,104,96
-400278353,"Jan 25, 2013",2012/2013,atlanta-hawks,boston-celtics,1112,123
+400278353,"Jan 25, 2013",2012/2013,atlanta-hawks,boston-celtics,123,111
 400278394,"Jan 30, 2013",2012/2013,atlanta-hawks,toronto-raptors,93,92
 400278416,"Feb 2, 2013",2012/2013,atlanta-hawks,chicago-bulls,76,93
 400278445,"Feb 6, 2013",2012/2013,atlanta-hawks,memphis-grizzlies,103,92
@@ -182,7 +182,7 @@ GAME_ID,DATE,PLAY_SEASON,HOME_TEAM,VISIT_TEAM,HOME_TEAM_SCORE,VISIT_TEAM_SCORE
 400828637,"Feb 5, 2016",2015/2016,atlanta-hawks,indiana-pacers,102,96
 400828667,"Feb 8, 2016",2015/2016,atlanta-hawks,orlando-magic,110,117
 400828695,"Feb 19, 2016",2015/2016,atlanta-hawks,miami-heat,111,115
-400828706,"Feb 20, 2016",2015/2016,atlanta-hawks,milwaukee-bucks,117,1092
+400828706,"Feb 20, 2016",2015/2016,atlanta-hawks,milwaukee-bucks,109,117
 400828723,"Feb 22, 2016",2015/2016,atlanta-hawks,golden-state-warriors,92,102
 400828752,"Feb 26, 2016",2015/2016,atlanta-hawks,chicago-bulls,103,88
 400828765,"Feb 28, 2016",2015/2016,atlanta-hawks,charlotte-hornets,87,76
@@ -241,7 +241,7 @@ GAME_ID,DATE,PLAY_SEASON,HOME_TEAM,VISIT_TEAM,HOME_TEAM_SCORE,VISIT_TEAM_SCORE
 400277992,"Dec 7, 2012",2012/2013,brooklyn-nets,golden-state-warriors,102,109
 400278013,"Dec 9, 2012",2012/2013,brooklyn-nets,milwaukee-bucks,88,97
 400278024,"Dec 11, 2012",2012/2013,brooklyn-nets,new-york-knicks,97,100
-400278048,"Dec 14, 2012",2012/2013,brooklyn-nets,detroit-pistons,1052,107
+400278048,"Dec 14, 2012",2012/2013,brooklyn-nets,detroit-pistons,107,105
 400278078,"Dec 18, 2012",2012/2013,brooklyn-nets,utah-jazz,90,92
 400278119,"Dec 23, 2012",2012/2013,brooklyn-nets,philadelphia-76ers,95,92
 400278125,"Dec 25, 2012",2012/2013,brooklyn-nets,boston-celtics,76,93
@@ -288,7 +288,7 @@ GAME_ID,DATE,PLAY_SEASON,HOME_TEAM,VISIT_TEAM,HOME_TEAM_SCORE,VISIT_TEAM_SCORE
 400489364,"Jan 4, 2014",2013/2014,brooklyn-nets,cleveland-cavaliers,89,82
 400489379,"Jan 6, 2014",2013/2014,brooklyn-nets,atlanta-hawks,91,86
 400489396,"Jan 8, 2014",2013/2014,brooklyn-nets,golden-state-warriors,102,98
-400489410,"Jan 10, 2014",2013/2014,brooklyn-nets,miami-heat,952,104
+400489410,"Jan 10, 2014",2013/2014,brooklyn-nets,miami-heat,104,95
 400489489,"Jan 21, 2014",2013/2014,brooklyn-nets,orlando-magic,101,90
 400489510,"Jan 24, 2014",2013/2014,brooklyn-nets,dallas-mavericks,107,106
 400489536,"Jan 27, 2014",2013/2014,brooklyn-nets,toronto-raptors,103,104
@@ -316,7 +316,7 @@ GAME_ID,DATE,PLAY_SEASON,HOME_TEAM,VISIT_TEAM,HOME_TEAM_SCORE,VISIT_TEAM_SCORE
 400578367,"Nov 7, 2014",2014/2015,brooklyn-nets,new-york-knicks,110,99
 400578382,"Nov 9, 2014",2014/2015,brooklyn-nets,orlando-magic,104,96
 400578441,"Nov 17, 2014",2014/2015,brooklyn-nets,miami-heat,83,95
-400578456,"Nov 19, 2014",2014/2015,brooklyn-nets,milwaukee-bucks,122,1183
+400578456,"Nov 19, 2014",2014/2015,brooklyn-nets,milwaukee-bucks,118,122
 400578534,"Nov 30, 2014",2014/2015,brooklyn-nets,chicago-bulls,84,102
 400578558,"Dec 3, 2014",2014/2015,brooklyn-nets,san-antonio-spurs,95,93
 400578572,"Dec 5, 2014",2014/2015,brooklyn-nets,atlanta-hawks,75,98
@@ -341,7 +341,7 @@ GAME_ID,DATE,PLAY_SEASON,HOME_TEAM,VISIT_TEAM,HOME_TEAM_SCORE,VISIT_TEAM_SCORE
 400579208,"Mar 6, 2015",2014/2015,brooklyn-nets,phoenix-suns,100,108
 400579225,"Mar 8, 2015",2014/2015,brooklyn-nets,utah-jazz,88,95
 400579239,"Mar 10, 2015",2014/2015,brooklyn-nets,new-orleans-pelicans,91,111
-400579314,"Mar 20, 2015",2014/2015,brooklyn-nets,milwaukee-bucks,1273,129
+400579314,"Mar 20, 2015",2014/2015,brooklyn-nets,milwaukee-bucks,129,127
 400579341,"Mar 23, 2015",2014/2015,brooklyn-nets,boston-celtics,91,110
 400579370,"Mar 27, 2015",2014/2015,brooklyn-nets,cleveland-cavaliers,106,98
 400579385,"Mar 29, 2015",2014/2015,brooklyn-nets,los-angeles-lakers,107,99
@@ -437,7 +437,7 @@ GAME_ID,DATE,PLAY_SEASON,HOME_TEAM,VISIT_TEAM,HOME_TEAM_SCORE,VISIT_TEAM_SCORE
 400277945,"Nov 30, 2012",2012/2013,boston-celtics,portland-trail-blazers,96,78
 400277979,"Dec 5, 2012",2012/2013,boston-celtics,minnesota-timberwolves,104,94
 400278005,"Dec 8, 2012",2012/2013,boston-celtics,philadelphia-76ers,92,79
-400278035,"Dec 12, 2012",2012/2013,boston-celtics,dallas-mavericks,1152,117
+400278035,"Dec 12, 2012",2012/2013,boston-celtics,dallas-mavericks,117,115
 400278090,"Dec 19, 2012",2012/2013,boston-celtics,cleveland-cavaliers,103,91
 400278102,"Dec 21, 2012",2012/2013,boston-celtics,milwaukee-bucks,94,99
 400278188,"Jan 2, 2013",2012/2013,boston-celtics,memphis-grizzlies,83,93
@@ -448,12 +448,12 @@ GAME_ID,DATE,PLAY_SEASON,HOME_TEAM,VISIT_TEAM,HOME_TEAM_SCORE,VISIT_TEAM_SCORE
 400278293,"Jan 16, 2013",2012/2013,boston-celtics,new-orleans-pelicans,78,90
 400278304,"Jan 18, 2013",2012/2013,boston-celtics,chicago-bulls,99,100
 400278350,"Jan 24, 2013",2012/2013,boston-celtics,new-york-knicks,86,89
-400278372,"Jan 27, 2013",2012/2013,boston-celtics,miami-heat,982,100
+400278372,"Jan 27, 2013",2012/2013,boston-celtics,miami-heat,100,98
 400278392,"Jan 30, 2013",2012/2013,boston-celtics,sacramento-kings,99,81
 400278406,"Feb 1, 2013",2012/2013,boston-celtics,orlando-magic,97,84
 400278425,"Feb 3, 2013",2012/2013,boston-celtics,los-angeles-clippers,106,104
 400278453,"Feb 7, 2013",2012/2013,boston-celtics,los-angeles-lakers,116,95
-400278474,"Feb 10, 2013",2012/2013,boston-celtics,denver-nuggets,1143,118
+400278474,"Feb 10, 2013",2012/2013,boston-celtics,denver-nuggets,118,114
 400278498,"Feb 13, 2013",2012/2013,boston-celtics,chicago-bulls,71,69
 400278587,"Mar 1, 2013",2012/2013,boston-celtics,golden-state-warriors,94,86
 400278637,"Mar 8, 2013",2012/2013,boston-celtics,atlanta-hawks,107,102
@@ -559,7 +559,7 @@ GAME_ID,DATE,PLAY_SEASON,HOME_TEAM,VISIT_TEAM,HOME_TEAM_SCORE,VISIT_TEAM_SCORE
 400828104,"Nov 25, 2015",2015/2016,boston-celtics,philadelphia-76ers,84,80
 400828116,"Nov 27, 2015",2015/2016,boston-celtics,washington-wizards,111,78
 400828206,"Dec 9, 2015",2015/2016,boston-celtics,chicago-bulls,105,100
-400828223,"Dec 11, 2015",2015/2016,boston-celtics,golden-state-warriors,124,1192
+400828223,"Dec 11, 2015",2015/2016,boston-celtics,golden-state-warriors,119,124
 400828254,"Dec 15, 2015",2015/2016,boston-celtics,cleveland-cavaliers,77,89
 400828276,"Dec 18, 2015",2015/2016,boston-celtics,atlanta-hawks,101,109
 400828298,"Dec 21, 2015",2015/2016,boston-celtics,minnesota-timberwolves,113,99
@@ -707,7 +707,7 @@ GAME_ID,DATE,PLAY_SEASON,HOME_TEAM,VISIT_TEAM,HOME_TEAM_SCORE,VISIT_TEAM_SCORE
 400578296,"Oct 29, 2014",2014/2015,charlotte-hornets,milwaukee-bucks,108,106
 400578320,"Nov 1, 2014",2014/2015,charlotte-hornets,memphis-grizzlies,69,71
 400578349,"Nov 5, 2014",2014/2015,charlotte-hornets,miami-heat,96,89
-400578363,"Nov 7, 2014",2014/2015,charlotte-hornets,atlanta-hawks,1192,122
+400578363,"Nov 7, 2014",2014/2015,charlotte-hornets,atlanta-hawks,122,119
 400578438,"Nov 17, 2014",2014/2015,charlotte-hornets,dallas-mavericks,80,107
 400578464,"Nov 21, 2014",2014/2015,charlotte-hornets,orlando-magic,100,105
 400578490,"Nov 24, 2014",2014/2015,charlotte-hornets,los-angeles-clippers,92,113
@@ -767,7 +767,7 @@ GAME_ID,DATE,PLAY_SEASON,HOME_TEAM,VISIT_TEAM,HOME_TEAM_SCORE,VISIT_TEAM_SCORE
 400828384,"Jan 2, 2016",2015/2016,charlotte-hornets,oklahoma-city-thunder,90,109
 400828464,"Jan 13, 2016",2015/2016,charlotte-hornets,atlanta-hawks,107,84
 400828490,"Jan 16, 2016",2015/2016,charlotte-hornets,milwaukee-bucks,92,105
-400828503,"Jan 18, 2016",2015/2016,charlotte-hornets,utah-jazz,1192,124
+400828503,"Jan 18, 2016",2015/2016,charlotte-hornets,utah-jazz,124,119
 400828542,"Jan 23, 2016",2015/2016,charlotte-hornets,new-york-knicks,97,84
 400828622,"Feb 3, 2016",2015/2016,charlotte-hornets,cleveland-cavaliers,106,97
 400828638,"Feb 5, 2016",2015/2016,charlotte-hornets,miami-heat,95,98
@@ -865,7 +865,7 @@ GAME_ID,DATE,PLAY_SEASON,HOME_TEAM,VISIT_TEAM,HOME_TEAM_SCORE,VISIT_TEAM_SCORE
 400488975,"Nov 11, 2013",2013/2014,chicago-bulls,cleveland-cavaliers,96,81
 400489013,"Nov 16, 2013",2013/2014,chicago-bulls,indiana-pacers,110,94
 400489024,"Nov 18, 2013",2013/2014,chicago-bulls,charlotte-hornets,86,81
-400489130,"Dec 2, 2013",2013/2014,chicago-bulls,new-orleans-pelicans,131,1283
+400489130,"Dec 2, 2013",2013/2014,chicago-bulls,new-orleans-pelicans,128,131
 400489152,"Dec 5, 2013",2013/2014,chicago-bulls,miami-heat,107,87
 400489165,"Dec 7, 2013",2013/2014,chicago-bulls,detroit-pistons,75,92
 400489189,"Dec 10, 2013",2013/2014,chicago-bulls,milwaukee-bucks,74,78
@@ -906,7 +906,7 @@ GAME_ID,DATE,PLAY_SEASON,HOME_TEAM,VISIT_TEAM,HOME_TEAM_SCORE,VISIT_TEAM_SCORE
 400578378,"Nov 8, 2014",2014/2015,chicago-bulls,boston-celtics,101,106
 400578393,"Nov 10, 2014",2014/2015,chicago-bulls,detroit-pistons,102,91
 400578427,"Nov 15, 2014",2014/2015,chicago-bulls,indiana-pacers,90,99
-400578549,"Dec 2, 2014",2014/2015,chicago-bulls,dallas-mavericks,132,1292
+400578549,"Dec 2, 2014",2014/2015,chicago-bulls,dallas-mavericks,129,132
 400578581,"Dec 6, 2014",2014/2015,chicago-bulls,golden-state-warriors,102,112
 400578612,"Dec 10, 2014",2014/2015,chicago-bulls,brooklyn-nets,105,80
 400578620,"Dec 12, 2014",2014/2015,chicago-bulls,portland-trail-blazers,115,96
@@ -956,7 +956,7 @@ GAME_ID,DATE,PLAY_SEASON,HOME_TEAM,VISIT_TEAM,HOME_TEAM_SCORE,VISIT_TEAM_SCORE
 400828235,"Dec 12, 2015",2015/2016,chicago-bulls,new-orleans-pelicans,98,94
 400828248,"Dec 14, 2015",2015/2016,chicago-bulls,philadelphia-76ers,115,96
 400828264,"Dec 16, 2015",2015/2016,chicago-bulls,memphis-grizzlies,98,85
-400828278,"Dec 18, 2015",2015/2016,chicago-bulls,detroit-pistons,147,1444
+400828278,"Dec 18, 2015",2015/2016,chicago-bulls,detroit-pistons,144,147
 400828301,"Dec 21, 2015",2015/2016,chicago-bulls,brooklyn-nets,102,105
 400828350,"Dec 28, 2015",2015/2016,chicago-bulls,toronto-raptors,104,97
 400828365,"Dec 30, 2015",2015/2016,chicago-bulls,indiana-pacers,102,100
@@ -1021,7 +1021,7 @@ GAME_ID,DATE,PLAY_SEASON,HOME_TEAM,VISIT_TEAM,HOME_TEAM_SCORE,VISIT_TEAM_SCORE
 400277855,"Nov 17, 2012",2012/2013,cleveland-cavaliers,dallas-mavericks,95,103
 400277879,"Nov 21, 2012",2012/2013,cleveland-cavaliers,philadelphia-76ers,92,83
 400277925,"Nov 27, 2012",2012/2013,cleveland-cavaliers,phoenix-suns,78,91
-400277954,"Dec 1, 2012",2012/2013,cleveland-cavaliers,portland-trail-blazers,118,1172
+400277954,"Dec 1, 2012",2012/2013,cleveland-cavaliers,portland-trail-blazers,117,118
 400277982,"Dec 5, 2012",2012/2013,cleveland-cavaliers,chicago-bulls,85,95
 400278007,"Dec 8, 2012",2012/2013,cleveland-cavaliers,detroit-pistons,97,104
 400278025,"Dec 11, 2012",2012/2013,cleveland-cavaliers,los-angeles-lakers,100,94
@@ -1059,7 +1059,7 @@ GAME_ID,DATE,PLAY_SEASON,HOME_TEAM,VISIT_TEAM,HOME_TEAM_SCORE,VISIT_TEAM_SCORE
 400278924,"Apr 15, 2013",2012/2013,cleveland-cavaliers,miami-heat,95,96
 400488877,"Oct 30, 2013",2013/2014,cleveland-cavaliers,brooklyn-nets,98,94
 400488920,"Nov 4, 2013",2013/2014,cleveland-cavaliers,minnesota-timberwolves,93,92
-400488961,"Nov 9, 2013",2013/2014,cleveland-cavaliers,philadelphia-76ers,1252,127
+400488961,"Nov 9, 2013",2013/2014,cleveland-cavaliers,philadelphia-76ers,127,125
 400489002,"Nov 15, 2013",2013/2014,cleveland-cavaliers,charlotte-hornets,80,86
 400489035,"Nov 20, 2013",2013/2014,cleveland-cavaliers,washington-wizards,91,98
 400489092,"Nov 27, 2013",2013/2014,cleveland-cavaliers,miami-heat,84,95
@@ -1070,7 +1070,7 @@ GAME_ID,DATE,PLAY_SEASON,HOME_TEAM,VISIT_TEAM,HOME_TEAM_SCORE,VISIT_TEAM_SCORE
 400489238,"Dec 17, 2013",2013/2014,cleveland-cavaliers,portland-trail-blazers,116,119
 400489258,"Dec 20, 2013",2013/2014,cleveland-cavaliers,milwaukee-bucks,114,111
 400489281,"Dec 23, 2013",2013/2014,cleveland-cavaliers,detroit-pistons,92,115
-400489296,"Dec 26, 2013",2013/2014,cleveland-cavaliers,atlanta-hawks,127,1252
+400489296,"Dec 26, 2013",2013/2014,cleveland-cavaliers,atlanta-hawks,125,127
 400489321,"Dec 29, 2013",2013/2014,cleveland-cavaliers,golden-state-warriors,104,108
 400489346,"Jan 2, 2014",2013/2014,cleveland-cavaliers,orlando-magic,87,81
 400489372,"Jan 5, 2014",2013/2014,cleveland-cavaliers,indiana-pacers,78,82
@@ -1194,7 +1194,7 @@ GAME_ID,DATE,PLAY_SEASON,HOME_TEAM,VISIT_TEAM,HOME_TEAM_SCORE,VISIT_TEAM_SCORE
 320129006,"Jan 29, 2012",2011/2012,dallas-mavericks,san-antonio-spurs,101,100
 320201006,"Feb 1, 2012",2011/2012,dallas-mavericks,oklahoma-city-thunder,86,95
 320203006,"Feb 3, 2012",2011/2012,dallas-mavericks,indiana-pacers,87,98
-320211006,"Feb 11, 2012",2011/2012,dallas-mavericks,portland-trail-blazers,942,97
+320211006,"Feb 11, 2012",2011/2012,dallas-mavericks,portland-trail-blazers,97,94
 320213006,"Feb 13, 2012",2011/2012,dallas-mavericks,los-angeles-clippers,96,92
 320215006,"Feb 15, 2012",2011/2012,dallas-mavericks,denver-nuggets,102,84
 320220006,"Feb 20, 2012",2011/2012,dallas-mavericks,boston-celtics,89,73
@@ -1352,7 +1352,7 @@ GAME_ID,DATE,PLAY_SEASON,HOME_TEAM,VISIT_TEAM,HOME_TEAM_SCORE,VISIT_TEAM_SCORE
 400828351,"Dec 28, 2015",2015/2016,dallas-mavericks,milwaukee-bucks,103,93
 400828367,"Dec 30, 2015",2015/2016,dallas-mavericks,golden-state-warriors,114,91
 400828388,"Jan 2, 2016",2015/2016,dallas-mavericks,new-orleans-pelicans,98,105
-400828410,"Jan 5, 2016",2015/2016,dallas-mavericks,sacramento-kings,1162,117
+400828410,"Jan 5, 2016",2015/2016,dallas-mavericks,sacramento-kings,117,116
 400828462,"Jan 12, 2016",2015/2016,dallas-mavericks,cleveland-cavaliers,107,110
 400828510,"Jan 18, 2016",2015/2016,dallas-mavericks,boston-celtics,118,113
 400828524,"Jan 20, 2016",2015/2016,dallas-mavericks,minnesota-timberwolves,106,94
@@ -1531,7 +1531,7 @@ GAME_ID,DATE,PLAY_SEASON,HOME_TEAM,VISIT_TEAM,HOME_TEAM_SCORE,VISIT_TEAM_SCORE
 400579377,"Mar 27, 2015",2014/2015,denver-nuggets,utah-jazz,107,91
 400579436,"Apr 4, 2015",2014/2015,denver-nuggets,los-angeles-clippers,92,107
 400579461,"Apr 8, 2015",2014/2015,denver-nuggets,los-angeles-lakers,119,101
-400579476,"Apr 10, 2015",2014/2015,denver-nuggets,dallas-mavericks,144,1432
+400579476,"Apr 10, 2015",2014/2015,denver-nuggets,dallas-mavericks,143,144
 400579488,"Apr 12, 2015",2014/2015,denver-nuggets,sacramento-kings,122,111
 400827916,"Oct 30, 2015",2015/2016,denver-nuggets,minnesota-timberwolves,78,95
 400827960,"Nov 5, 2015",2015/2016,denver-nuggets,utah-jazz,84,96
@@ -1720,7 +1720,7 @@ GAME_ID,DATE,PLAY_SEASON,HOME_TEAM,VISIT_TEAM,HOME_TEAM_SCORE,VISIT_TEAM_SCORE
 400579098,"Feb 20, 2015",2014/2015,detroit-pistons,chicago-bulls,100,91
 400579115,"Feb 22, 2015",2014/2015,detroit-pistons,washington-wizards,106,89
 400579131,"Feb 24, 2015",2014/2015,detroit-pistons,cleveland-cavaliers,93,102
-400579152,"Feb 27, 2015",2014/2015,detroit-pistons,new-york-knicks,121,1152
+400579152,"Feb 27, 2015",2014/2015,detroit-pistons,new-york-knicks,115,121
 400579226,"Mar 8, 2015",2014/2015,detroit-pistons,charlotte-hornets,101,108
 400579292,"Mar 17, 2015",2014/2015,detroit-pistons,memphis-grizzlies,105,95
 400579325,"Mar 21, 2015",2014/2015,detroit-pistons,chicago-bulls,107,91
@@ -1806,7 +1806,7 @@ GAME_ID,DATE,PLAY_SEASON,HOME_TEAM,VISIT_TEAM,HOME_TEAM_SCORE,VISIT_TEAM_SCORE
 320426009,"Apr 26, 2012",2011/2012,golden-state-warriors,san-antonio-spurs,101,107
 400277746,"Nov 2, 2012",2012/2013,golden-state-warriors,memphis-grizzlies,94,104
 400277785,"Nov 7, 2012",2012/2013,golden-state-warriors,cleveland-cavaliers,106,96
-400277809,"Nov 10, 2012",2012/2013,golden-state-warriors,denver-nuggets,107,1012
+400277809,"Nov 10, 2012",2012/2013,golden-state-warriors,denver-nuggets,101,107
 400277838,"Nov 14, 2012",2012/2013,golden-state-warriors,atlanta-hawks,92,88
 400277890,"Nov 21, 2012",2012/2013,golden-state-warriors,brooklyn-nets,102,93
 400277910,"Nov 24, 2012",2012/2013,golden-state-warriors,minnesota-timberwolves,96,85
@@ -2046,7 +2046,7 @@ GAME_ID,DATE,PLAY_SEASON,HOME_TEAM,VISIT_TEAM,HOME_TEAM_SCORE,VISIT_TEAM_SCORE
 400488898,"Nov 1, 2013",2013/2014,houston-rockets,dallas-mavericks,113,105
 400488945,"Nov 7, 2013",2013/2014,houston-rockets,los-angeles-lakers,98,99
 400488963,"Nov 9, 2013",2013/2014,houston-rockets,los-angeles-clippers,94,107
-400488976,"Nov 11, 2013",2013/2014,houston-rockets,toronto-raptors,1042,110
+400488976,"Nov 11, 2013",2013/2014,houston-rockets,toronto-raptors,110,104
 400489014,"Nov 16, 2013",2013/2014,houston-rockets,denver-nuggets,122,111
 400489032,"Nov 19, 2013",2013/2014,houston-rockets,boston-celtics,109,85
 400489065,"Nov 23, 2013",2013/2014,houston-rockets,minnesota-timberwolves,112,101
@@ -2198,7 +2198,7 @@ GAME_ID,DATE,PLAY_SEASON,HOME_TEAM,VISIT_TEAM,HOME_TEAM_SCORE,VISIT_TEAM_SCORE
 320421011,"Apr 21, 2012",2011/2012,indiana-pacers,philadelphia-76ers,106,109
 320423011,"Apr 23, 2012",2011/2012,indiana-pacers,detroit-pistons,103,97
 320425011,"Apr 25, 2012",2011/2012,indiana-pacers,chicago-bulls,87,92
-400277748,"Nov 3, 2012",2012/2013,indiana-pacers,sacramento-kings,982,106
+400277748,"Nov 3, 2012",2012/2013,indiana-pacers,sacramento-kings,106,98
 400277802,"Nov 10, 2012",2012/2013,indiana-pacers,washington-wizards,89,85
 400277825,"Nov 13, 2012",2012/2013,indiana-pacers,toronto-raptors,72,74
 400277844,"Nov 16, 2012",2012/2013,indiana-pacers,dallas-mavericks,103,83
@@ -2320,7 +2320,7 @@ NA,"Nov 22, 2014",2014/2015,indiana-pacers,phoenix-suns,83,106
 400579419,"Apr 3, 2015",2014/2015,indiana-pacers,charlotte-hornets,93,74
 400579441,"Apr 5, 2015",2014/2015,indiana-pacers,miami-heat,112,89
 400579489,"Apr 12, 2015",2014/2015,indiana-pacers,oklahoma-city-thunder,116,104
-400579507,"Apr 14, 2015",2014/2015,indiana-pacers,washington-wizards,952,99
+400579507,"Apr 14, 2015",2014/2015,indiana-pacers,washington-wizards,99,95
 400827905,"Oct 29, 2015",2015/2016,indiana-pacers,memphis-grizzlies,103,112
 400827920,"Oct 31, 2015",2015/2016,indiana-pacers,utah-jazz,76,97
 400827947,"Nov 4, 2015",2015/2016,indiana-pacers,boston-celtics,100,98
@@ -2591,7 +2591,7 @@ NA,"Nov 22, 2014",2014/2015,indiana-pacers,phoenix-suns,83,106
 320413013,"Apr 13, 2012",2011/2012,los-angeles-lakers,denver-nuggets,103,97
 320415013,"Apr 15, 2012",2011/2012,los-angeles-lakers,dallas-mavericks,112,108
 320417013,"Apr 17, 2012",2011/2012,los-angeles-lakers,san-antonio-spurs,91,112
-320422013,"Apr 22, 2012",2011/2012,los-angeles-lakers,oklahoma-city-thunder,1062,114
+320422013,"Apr 22, 2012",2011/2012,los-angeles-lakers,oklahoma-city-thunder,114,106
 400277723,"Oct 30, 2012",2012/2013,los-angeles-lakers,dallas-mavericks,91,99
 400277745,"Nov 2, 2012",2012/2013,los-angeles-lakers,los-angeles-clippers,95,105
 400277761,"Nov 4, 2012",2012/2013,los-angeles-lakers,detroit-pistons,108,79
@@ -2697,7 +2697,7 @@ NA,"Nov 22, 2014",2014/2015,indiana-pacers,phoenix-suns,83,106
 400578878,"Jan 15, 2015",2014/2015,los-angeles-lakers,cleveland-cavaliers,102,109
 400578959,"Jan 25, 2015",2014/2015,los-angeles-lakers,houston-rockets,87,99
 400578972,"Jan 27, 2015",2014/2015,los-angeles-lakers,washington-wizards,92,98
-400578987,"Jan 29, 2015",2014/2015,los-angeles-lakers,chicago-bulls,1182,123
+400578987,"Jan 29, 2015",2014/2015,los-angeles-lakers,chicago-bulls,123,118
 400579079,"Feb 10, 2015",2014/2015,los-angeles-lakers,denver-nuggets,96,106
 400579107,"Feb 20, 2015",2014/2015,los-angeles-lakers,brooklyn-nets,105,114
 400579121,"Feb 22, 2015",2014/2015,los-angeles-lakers,boston-celtics,118,111
@@ -2776,7 +2776,7 @@ NA,"Nov 22, 2014",2014/2015,indiana-pacers,phoenix-suns,83,106
 320221029,"Feb 21, 2012",2011/2012,memphis-grizzlies,philadelphia-76ers,89,76
 320229029,"Feb 29, 2012",2011/2012,memphis-grizzlies,dallas-mavericks,96,85
 320303029,"Mar 3, 2012",2011/2012,memphis-grizzlies,detroit-pistons,100,83
-320313029,"Mar 13, 2012",2011/2012,memphis-grizzlies,los-angeles-lakers,116,1112
+320313029,"Mar 13, 2012",2011/2012,memphis-grizzlies,los-angeles-lakers,111,116
 320316029,"Mar 16, 2012",2011/2012,memphis-grizzlies,toronto-raptors,110,114
 320318029,"Mar 18, 2012",2011/2012,memphis-grizzlies,washington-wizards,97,92
 320327029,"Mar 27, 2012",2011/2012,memphis-grizzlies,minnesota-timberwolves,93,86
@@ -2882,14 +2882,14 @@ NA,"Nov 22, 2014",2014/2015,indiana-pacers,phoenix-suns,83,106
 400578574,"Dec 5, 2014",2014/2015,memphis-grizzlies,san-antonio-spurs,101,107
 400578588,"Dec 7, 2014",2014/2015,memphis-grizzlies,miami-heat,103,87
 400578602,"Dec 9, 2014",2014/2015,memphis-grizzlies,dallas-mavericks,114,105
-400578626,"Dec 12, 2014",2014/2015,memphis-grizzlies,charlotte-hornets,1072,113
+400578626,"Dec 12, 2014",2014/2015,memphis-grizzlies,charlotte-hornets,113,107
 400578657,"Dec 16, 2014",2014/2015,memphis-grizzlies,golden-state-warriors,105,98
 400578681,"Dec 19, 2014",2014/2015,memphis-grizzlies,chicago-bulls,97,103
 400578704,"Dec 22, 2014",2014/2015,memphis-grizzlies,utah-jazz,91,97
 400578728,"Dec 26, 2014",2014/2015,memphis-grizzlies,houston-rockets,111,117
 400578760,"Dec 30, 2014",2014/2015,memphis-grizzlies,san-antonio-spurs,95,87
 400578805,"Jan 5, 2015",2014/2015,memphis-grizzlies,new-york-knicks,105,83
-400578852,"Jan 11, 2015",2014/2015,memphis-grizzlies,phoenix-suns,1102,122
+400578852,"Jan 11, 2015",2014/2015,memphis-grizzlies,phoenix-suns,122,110
 400578896,"Jan 17, 2015",2014/2015,memphis-grizzlies,portland-trail-blazers,102,98
 400578908,"Jan 19, 2015",2014/2015,memphis-grizzlies,dallas-mavericks,95,103
 400578922,"Jan 21, 2015",2014/2015,memphis-grizzlies,toronto-raptors,92,86
@@ -3013,7 +3013,7 @@ NA,"Nov 22, 2014",2014/2015,indiana-pacers,phoenix-suns,83,106
 400278473,"Feb 10, 2013",2012/2013,miami-heat,los-angeles-lakers,107,97
 400278490,"Feb 12, 2013",2012/2013,miami-heat,portland-trail-blazers,117,104
 400278553,"Feb 24, 2013",2012/2013,miami-heat,cleveland-cavaliers,109,105
-400278565,"Feb 26, 2013",2012/2013,miami-heat,sacramento-kings,1292,141
+400278565,"Feb 26, 2013",2012/2013,miami-heat,sacramento-kings,141,129
 400278588,"Mar 1, 2013",2012/2013,miami-heat,memphis-grizzlies,98,91
 400278623,"Mar 6, 2013",2012/2013,miami-heat,orlando-magic,97,96
 400278641,"Mar 8, 2013",2012/2013,miami-heat,philadelphia-76ers,102,93
@@ -3063,7 +3063,7 @@ NA,"Nov 22, 2014",2014/2015,indiana-pacers,phoenix-suns,83,106
 400489922,"Mar 24, 2014",2013/2014,miami-heat,portland-trail-blazers,93,91
 400489978,"Mar 31, 2014",2013/2014,miami-heat,toronto-raptors,93,83
 400489994,"Apr 2, 2014",2013/2014,miami-heat,milwaukee-bucks,96,77
-400490008,"Apr 4, 2014",2013/2014,miami-heat,minnesota-timberwolves,122,1212
+400490008,"Apr 4, 2014",2013/2014,miami-heat,minnesota-timberwolves,121,122
 400490022,"Apr 6, 2014",2013/2014,miami-heat,new-york-knicks,102,91
 400490031,"Apr 8, 2014",2013/2014,miami-heat,brooklyn-nets,87,88
 400490053,"Apr 11, 2014",2013/2014,miami-heat,indiana-pacers,98,86
@@ -3236,7 +3236,7 @@ NA,"Apr 11, 2015",2014/2015,miami-heat,toronto-raptors,104,107
 400489168,"Dec 7, 2013",2013/2014,milwaukee-bucks,brooklyn-nets,82,90
 400489194,"Dec 11, 2013",2013/2014,milwaukee-bucks,san-antonio-spurs,77,109
 400489210,"Dec 13, 2013",2013/2014,milwaukee-bucks,chicago-bulls,90,91
-400489248,"Dec 18, 2013",2013/2014,milwaukee-bucks,new-york-knicks,107,1012
+400489248,"Dec 18, 2013",2013/2014,milwaukee-bucks,new-york-knicks,101,107
 400489271,"Dec 21, 2013",2013/2014,milwaukee-bucks,philadelphia-76ers,116,106
 400489317,"Dec 28, 2013",2013/2014,milwaukee-bucks,minnesota-timberwolves,95,117
 400489388,"Jan 7, 2014",2013/2014,milwaukee-bucks,golden-state-warriors,80,101
@@ -3311,7 +3311,7 @@ NA,"Apr 11, 2015",2014/2015,miami-heat,toronto-raptors,104,107
 400827952,"Nov 4, 2015",2015/2016,milwaukee-bucks,philadelphia-76ers,91,87
 400827976,"Nov 7, 2015",2015/2016,milwaukee-bucks,brooklyn-nets,94,86
 400827997,"Nov 10, 2015",2015/2016,milwaukee-bucks,boston-celtics,83,99
-400828028,"Nov 14, 2015",2015/2016,milwaukee-bucks,cleveland-cavaliers,1052,108
+400828028,"Nov 14, 2015",2015/2016,milwaukee-bucks,cleveland-cavaliers,108,105
 400828092,"Nov 23, 2015",2015/2016,milwaukee-bucks,detroit-pistons,109,88
 400828108,"Nov 25, 2015",2015/2016,milwaukee-bucks,sacramento-kings,118,129
 400828145,"Nov 30, 2015",2015/2016,milwaukee-bucks,denver-nuggets,92,74
@@ -3461,7 +3461,7 @@ NA,"Apr 11, 2015",2014/2015,miami-heat,toronto-raptors,104,107
 400528655,"Apr 8, 2014",2013/2014,minnesota-timberwolves,san-antonio-spurs,110,91
 400490042,"Apr 9, 2014",2013/2014,minnesota-timberwolves,chicago-bulls,87,102
 400490056,"Apr 11, 2014",2013/2014,minnesota-timberwolves,houston-rockets,112,110
-400490091,"Apr 16, 2014",2013/2014,minnesota-timberwolves,utah-jazz,136,1302
+400490091,"Apr 16, 2014",2013/2014,minnesota-timberwolves,utah-jazz,130,136
 400578309,"Oct 30, 2014",2014/2015,minnesota-timberwolves,detroit-pistons,97,91
 400578327,"Nov 1, 2014",2014/2015,minnesota-timberwolves,chicago-bulls,105,106
 400578409,"Nov 12, 2014",2014/2015,minnesota-timberwolves,houston-rockets,101,113
@@ -3692,7 +3692,7 @@ NA,"Apr 11, 2015",2014/2015,miami-heat,toronto-raptors,104,107
 400579195,"Mar 4, 2015",2014/2015,new-orleans-pelicans,detroit-pistons,88,85
 400579211,"Mar 6, 2015",2014/2015,new-orleans-pelicans,boston-celtics,98,104
 400579215,"Mar 7, 2015",2014/2015,new-orleans-pelicans,memphis-grizzlies,95,89
-400579276,"Mar 15, 2015",2014/2015,new-orleans-pelicans,denver-nuggets,118,1112
+400579276,"Mar 15, 2015",2014/2015,new-orleans-pelicans,denver-nuggets,111,118
 400579295,"Mar 17, 2015",2014/2015,new-orleans-pelicans,milwaukee-bucks,85,84
 400579360,"Mar 25, 2015",2014/2015,new-orleans-pelicans,houston-rockets,93,95
 400579375,"Mar 27, 2015",2014/2015,new-orleans-pelicans,sacramento-kings,102,88
@@ -3749,7 +3749,7 @@ NA,"Apr 11, 2015",2014/2015,miami-heat,toronto-raptors,104,107
 320116018,"Jan 16, 2012",2011/2012,new-york-knicks,orlando-magic,93,102
 320118018,"Jan 18, 2012",2011/2012,new-york-knicks,phoenix-suns,88,91
 320120018,"Jan 20, 2012",2011/2012,new-york-knicks,milwaukee-bucks,86,100
-320121018,"Jan 21, 2012",2011/2012,new-york-knicks,denver-nuggets,119,1142
+320121018,"Jan 21, 2012",2011/2012,new-york-knicks,denver-nuggets,114,119
 320131018,"Jan 31, 2012",2011/2012,new-york-knicks,detroit-pistons,113,86
 320202018,"Feb 2, 2012",2011/2012,new-york-knicks,chicago-bulls,102,105
 320204018,"Feb 4, 2012",2011/2012,new-york-knicks,brooklyn-nets,99,92
@@ -3916,7 +3916,7 @@ NA,"Apr 11, 2015",2014/2015,miami-heat,toronto-raptors,104,107
 400828393,"Jan 3, 2016",2015/2016,new-york-knicks,atlanta-hawks,111,97
 400828449,"Jan 10, 2016",2015/2016,new-york-knicks,milwaukee-bucks,100,88
 400828458,"Jan 12, 2016",2015/2016,new-york-knicks,boston-celtics,120,114
-400828502,"Jan 18, 2016",2015/2016,new-york-knicks,philadelphia-76ers,1132,119
+400828502,"Jan 18, 2016",2015/2016,new-york-knicks,philadelphia-76ers,119,113
 400828519,"Jan 20, 2016",2015/2016,new-york-knicks,utah-jazz,118,111
 400828535,"Jan 22, 2016",2015/2016,new-york-knicks,los-angeles-clippers,88,116
 400828566,"Jan 26, 2016",2015/2016,new-york-knicks,oklahoma-city-thunder,122,128
@@ -3962,7 +3962,7 @@ NA,"Apr 11, 2015",2014/2015,miami-heat,toronto-raptors,104,107
 320316025,"Mar 16, 2012",2011/2012,oklahoma-city-thunder,san-antonio-spurs,105,114
 320318025,"Mar 18, 2012",2011/2012,oklahoma-city-thunder,portland-trail-blazers,111,95
 320321025,"Mar 21, 2012",2011/2012,oklahoma-city-thunder,los-angeles-clippers,114,91
-320323025,"Mar 23, 2012",2011/2012,oklahoma-city-thunder,minnesota-timberwolves,1402,149
+320323025,"Mar 23, 2012",2011/2012,oklahoma-city-thunder,minnesota-timberwolves,149,140
 320325025,"Mar 25, 2012",2011/2012,oklahoma-city-thunder,miami-heat,103,87
 320401025,"Apr 1, 2012",2011/2012,oklahoma-city-thunder,chicago-bulls,92,78
 320402025,"Apr 2, 2012",2011/2012,oklahoma-city-thunder,memphis-grizzlies,88,94
@@ -4227,7 +4227,7 @@ NA,"Dec 13, 2013",2013/2014,orlando-magic,cleveland-cavaliers,100,109
 400489322,"Dec 29, 2013",2013/2014,orlando-magic,atlanta-hawks,109,102
 400489335,"Dec 31, 2013",2013/2014,orlando-magic,golden-state-warriors,81,94
 400489363,"Jan 4, 2014",2013/2014,orlando-magic,miami-heat,94,110
-400489439,"Jan 15, 2014",2013/2014,orlando-magic,chicago-bulls,128,1253
+400489439,"Jan 15, 2014",2013/2014,orlando-magic,chicago-bulls,125,128
 400489455,"Jan 17, 2014",2013/2014,orlando-magic,charlotte-hornets,101,111
 400489475,"Jan 19, 2014",2013/2014,orlando-magic,boston-celtics,93,91
 400489496,"Jan 22, 2014",2013/2014,orlando-magic,atlanta-hawks,109,112
@@ -4237,7 +4237,7 @@ NA,"Dec 13, 2013",2013/2014,orlando-magic,cleveland-cavaliers,100,109
 400489613,"Feb 7, 2014",2013/2014,orlando-magic,oklahoma-city-thunder,103,102
 400489634,"Feb 9, 2014",2013/2014,orlando-magic,indiana-pacers,93,92
 400489651,"Feb 12, 2014",2013/2014,orlando-magic,memphis-grizzlies,81,86
-400489689,"Feb 21, 2014",2013/2014,orlando-magic,new-york-knicks,1212,129
+400489689,"Feb 21, 2014",2013/2014,orlando-magic,new-york-knicks,129,121
 400489759,"Mar 2, 2014",2013/2014,orlando-magic,philadelphia-76ers,92,81
 400489778,"Mar 5, 2014",2013/2014,orlando-magic,houston-rockets,89,101
 400489831,"Mar 12, 2014",2013/2014,orlando-magic,denver-nuggets,112,120
@@ -4292,7 +4292,7 @@ NA,"Dec 13, 2013",2013/2014,orlando-magic,cleveland-cavaliers,100,109
 400579467,"Apr 10, 2015",2014/2015,orlando-magic,toronto-raptors,99,101
 400579479,"Apr 11, 2015",2014/2015,orlando-magic,new-york-knicks,79,80
 400827891,"Oct 28, 2015",2015/2016,orlando-magic,washington-wizards,87,88
-400827909,"Oct 30, 2015",2015/2016,orlando-magic,oklahoma-city-thunder,139,1362
+400827909,"Oct 30, 2015",2015/2016,orlando-magic,oklahoma-city-thunder,136,139
 400827962,"Nov 6, 2015",2015/2016,orlando-magic,toronto-raptors,92,87
 400828001,"Nov 11, 2015",2015/2016,orlando-magic,los-angeles-lakers,101,99
 400828015,"Nov 13, 2015",2015/2016,orlando-magic,utah-jazz,102,93
@@ -4416,7 +4416,7 @@ NA,"Dec 13, 2013",2013/2014,orlando-magic,cleveland-cavaliers,100,109
 400489038,"Nov 20, 2013",2013/2014,philadelphia-76ers,toronto-raptors,98,108
 400489050,"Nov 22, 2013",2013/2014,philadelphia-76ers,milwaukee-bucks,115,107
 400489110,"Nov 29, 2013",2013/2014,philadelphia-76ers,new-orleans-pelicans,105,121
-400489134,"Dec 3, 2013",2013/2014,philadelphia-76ers,orlando-magic,1252,126
+400489134,"Dec 3, 2013",2013/2014,philadelphia-76ers,orlando-magic,126,125
 400489163,"Dec 7, 2013",2013/2014,philadelphia-76ers,denver-nuggets,92,103
 400489178,"Dec 9, 2013",2013/2014,philadelphia-76ers,los-angeles-clippers,83,94
 400489220,"Dec 14, 2013",2013/2014,philadelphia-76ers,portland-trail-blazers,105,139
@@ -4647,7 +4647,7 @@ NA,"Dec 13, 2013",2013/2014,orlando-magic,cleveland-cavaliers,100,109
 400578305,"Oct 29, 2014",2014/2015,phoenix-suns,los-angeles-lakers,119,99
 400578316,"Oct 31, 2014",2014/2015,phoenix-suns,san-antonio-spurs,94,89
 400578357,"Nov 5, 2014",2014/2015,phoenix-suns,memphis-grizzlies,91,102
-400578371,"Nov 7, 2014",2014/2015,phoenix-suns,sacramento-kings,114,1122
+400578371,"Nov 7, 2014",2014/2015,phoenix-suns,sacramento-kings,112,114
 400578387,"Nov 9, 2014",2014/2015,phoenix-suns,golden-state-warriors,107,95
 400578408,"Nov 12, 2014",2014/2015,phoenix-suns,brooklyn-nets,112,104
 400578422,"Nov 14, 2014",2014/2015,phoenix-suns,charlotte-hornets,95,103
@@ -5102,7 +5102,7 @@ NA,"Dec 13, 2013",2013/2014,orlando-magic,cleveland-cavaliers,100,109
 400828472,"Jan 13, 2016",2015/2016,sacramento-kings,new-orleans-pelicans,97,109
 400828530,"Jan 21, 2016",2015/2016,sacramento-kings,atlanta-hawks,91,88
 400828550,"Jan 23, 2016",2015/2016,sacramento-kings,indiana-pacers,108,97
-400828561,"Jan 25, 2016",2015/2016,sacramento-kings,charlotte-hornets,129,1282
+400828561,"Jan 25, 2016",2015/2016,sacramento-kings,charlotte-hornets,128,129
 400828616,"Feb 1, 2016",2015/2016,sacramento-kings,milwaukee-bucks,111,104
 400828631,"Feb 3, 2016",2015/2016,sacramento-kings,chicago-bulls,102,107
 400828703,"Feb 19, 2016",2015/2016,sacramento-kings,denver-nuggets,116,110
@@ -5245,8 +5245,8 @@ NA,"Dec 13, 2013",2013/2014,orlando-magic,cleveland-cavaliers,100,109
 400578583,"Dec 6, 2014",2014/2015,san-antonio-spurs,minnesota-timberwolves,123,101
 400578614,"Dec 10, 2014",2014/2015,san-antonio-spurs,new-york-knicks,109,95
 400578631,"Dec 12, 2014",2014/2015,san-antonio-spurs,los-angeles-lakers,110,112
-400578667,"Dec 17, 2014",2014/2015,san-antonio-spurs,memphis-grizzlies,117,1163
-400578682,"Dec 19, 2014",2014/2015,san-antonio-spurs,portland-trail-blazers,129,1193
+400578667,"Dec 17, 2014",2014/2015,san-antonio-spurs,memphis-grizzlies,116,117
+400578682,"Dec 19, 2014",2014/2015,san-antonio-spurs,portland-trail-blazers,119,129
 400578706,"Dec 22, 2014",2014/2015,san-antonio-spurs,los-angeles-clippers,125,118
 400578720,"Dec 25, 2014",2014/2015,san-antonio-spurs,oklahoma-city-thunder,106,114
 400578746,"Dec 28, 2014",2014/2015,san-antonio-spurs,houston-rockets,110,106
@@ -5353,9 +5353,9 @@ NA,"Dec 13, 2013",2013/2014,orlando-magic,cleveland-cavaliers,100,109
 400277724,"Oct 31, 2012",2012/2013,toronto-raptors,indiana-pacers,88,90
 400277758,"Nov 4, 2012",2012/2013,toronto-raptors,minnesota-timberwolves,105,86
 400277801,"Nov 10, 2012",2012/2013,toronto-raptors,philadelphia-76ers,83,93
-400277815,"Nov 12, 2012",2012/2013,toronto-raptors,utah-jazz,140,1333
+400277815,"Nov 12, 2012",2012/2013,toronto-raptors,utah-jazz,133,140
 400277860,"Nov 18, 2012",2012/2013,toronto-raptors,orlando-magic,97,86
-400277911,"Nov 25, 2012",2012/2013,toronto-raptors,san-antonio-spurs,111,1062
+400277911,"Nov 25, 2012",2012/2013,toronto-raptors,san-antonio-spurs,106,111
 400277942,"Nov 30, 2012",2012/2013,toronto-raptors,phoenix-suns,101,97
 400278029,"Dec 12, 2012",2012/2013,toronto-raptors,brooklyn-nets,88,94
 400278045,"Dec 14, 2012",2012/2013,toronto-raptors,dallas-mavericks,95,74
@@ -5418,13 +5418,13 @@ NA,"Dec 13, 2013",2013/2014,orlando-magic,cleveland-cavaliers,100,109
 400489676,"Feb 19, 2014",2013/2014,toronto-raptors,chicago-bulls,92,94
 400489691,"Feb 21, 2014",2013/2014,toronto-raptors,cleveland-cavaliers,98,91
 400489709,"Feb 23, 2014",2013/2014,toronto-raptors,orlando-magic,105,90
-400489737,"Feb 27, 2014",2013/2014,toronto-raptors,washington-wizards,134,1293
+400489737,"Feb 27, 2014",2013/2014,toronto-raptors,washington-wizards,129,134
 400489757,"Mar 2, 2014",2013/2014,toronto-raptors,golden-state-warriors,104,98
 400489792,"Mar 7, 2014",2013/2014,toronto-raptors,sacramento-kings,99,87
 400489833,"Mar 12, 2014",2013/2014,toronto-raptors,detroit-pistons,101,87
 400489847,"Mar 14, 2014",2013/2014,toronto-raptors,memphis-grizzlies,99,86
 400489861,"Mar 16, 2014",2013/2014,toronto-raptors,phoenix-suns,113,121
-400489897,"Mar 21, 2014",2013/2014,toronto-raptors,oklahoma-city-thunder,119,1182
+400489897,"Mar 21, 2014",2013/2014,toronto-raptors,oklahoma-city-thunder,118,119
 400489913,"Mar 23, 2014",2013/2014,toronto-raptors,atlanta-hawks,96,86
 400489949,"Mar 28, 2014",2013/2014,toronto-raptors,boston-celtics,105,103
 400489991,"Apr 2, 2014",2013/2014,toronto-raptors,houston-rockets,107,103
@@ -5524,7 +5524,7 @@ NA,"Dec 13, 2013",2013/2014,orlando-magic,cleveland-cavaliers,100,109
 320117026,"Jan 17, 2012",2011/2012,utah-jazz,los-angeles-clippers,108,79
 320119026,"Jan 19, 2012",2011/2012,utah-jazz,dallas-mavericks,91,94
 320121026,"Jan 21, 2012",2011/2012,utah-jazz,minnesota-timberwolves,108,98
-320125026,"Jan 25, 2012",2011/2012,utah-jazz,toronto-raptors,111,1062
+320125026,"Jan 25, 2012",2011/2012,utah-jazz,toronto-raptors,106,111
 320128026,"Jan 28, 2012",2011/2012,utah-jazz,sacramento-kings,96,93
 320130026,"Jan 30, 2012",2011/2012,utah-jazz,portland-trail-blazers,93,89
 320201026,"Feb 1, 2012",2011/2012,utah-jazz,los-angeles-clippers,105,107
@@ -5543,7 +5543,7 @@ NA,"Dec 13, 2013",2013/2014,orlando-magic,cleveland-cavaliers,100,109
 320404026,"Apr 4, 2012",2011/2012,utah-jazz,phoenix-suns,105,107
 320406026,"Apr 6, 2012",2011/2012,utah-jazz,golden-state-warriors,104,98
 320409026,"Apr 9, 2012",2011/2012,utah-jazz,san-antonio-spurs,91,84
-320416026,"Apr 16, 2012",2011/2012,utah-jazz,dallas-mavericks,1213,123
+320416026,"Apr 16, 2012",2011/2012,utah-jazz,dallas-mavericks,123,121
 320421026,"Apr 21, 2012",2011/2012,utah-jazz,orlando-magic,117,107
 320424026,"Apr 24, 2012",2011/2012,utah-jazz,phoenix-suns,100,88
 320426026,"Apr 26, 2012",2011/2012,utah-jazz,portland-trail-blazers,96,94
@@ -5748,7 +5748,7 @@ NA,"Dec 13, 2013",2013/2014,orlando-magic,cleveland-cavaliers,100,109
 400277788,"Nov 9, 2012",2012/2013,washington-wizards,milwaukee-bucks,91,101
 400277853,"Nov 17, 2012",2012/2013,washington-wizards,utah-jazz,76,83
 400277867,"Nov 19, 2012",2012/2013,washington-wizards,indiana-pacers,89,96
-400277904,"Nov 24, 2012",2012/2013,washington-wizards,charlotte-hornets,108,1062
+400277904,"Nov 24, 2012",2012/2013,washington-wizards,charlotte-hornets,106,108
 400277917,"Nov 26, 2012",2012/2013,washington-wizards,san-antonio-spurs,92,118
 400277929,"Nov 28, 2012",2012/2013,washington-wizards,portland-trail-blazers,84,82
 400277972,"Dec 4, 2012",2012/2013,washington-wizards,miami-heat,105,101
@@ -5759,7 +5759,7 @@ NA,"Dec 13, 2013",2013/2014,orlando-magic,cleveland-cavaliers,100,109
 400278130,"Dec 26, 2012",2012/2013,washington-wizards,cleveland-cavaliers,84,87
 400278145,"Dec 28, 2012",2012/2013,washington-wizards,orlando-magic,105,97
 400278178,"Jan 1, 2013",2012/2013,washington-wizards,dallas-mavericks,94,103
-400278199,"Jan 4, 2013",2012/2013,washington-wizards,brooklyn-nets,115,1132
+400278199,"Jan 4, 2013",2012/2013,washington-wizards,brooklyn-nets,113,115
 400278224,"Jan 7, 2013",2012/2013,washington-wizards,oklahoma-city-thunder,101,99
 400278262,"Jan 12, 2013",2012/2013,washington-wizards,atlanta-hawks,93,83
 400278276,"Jan 14, 2013",2012/2013,washington-wizards,orlando-magic,120,91
@@ -5808,7 +5808,7 @@ NA,"Dec 13, 2013",2013/2014,orlando-magic,cleveland-cavaliers,100,109
 400489498,"Jan 22, 2014",2013/2014,washington-wizards,boston-celtics,111,113
 400489571,"Feb 1, 2014",2013/2014,washington-wizards,oklahoma-city-thunder,96,81
 400489584,"Feb 3, 2014",2013/2014,washington-wizards,portland-trail-blazers,100,90
-400489600,"Feb 5, 2014",2013/2014,washington-wizards,san-antonio-spurs,125,1182
+400489600,"Feb 5, 2014",2013/2014,washington-wizards,san-antonio-spurs,118,125
 400489615,"Feb 7, 2014",2013/2014,washington-wizards,cleveland-cavaliers,113,115
 400489635,"Feb 9, 2014",2013/2014,washington-wizards,sacramento-kings,93,84
 400489667,"Feb 18, 2014",2013/2014,washington-wizards,toronto-raptors,93,103
@@ -5837,7 +5837,7 @@ NA,"Dec 13, 2013",2013/2014,orlando-magic,cleveland-cavaliers,100,109
 400578542,"Dec 1, 2014",2014/2015,washington-wizards,miami-heat,107,86
 400578556,"Dec 3, 2014",2014/2015,washington-wizards,los-angeles-lakers,111,95
 400578570,"Dec 5, 2014",2014/2015,washington-wizards,denver-nuggets,119,89
-400578594,"Dec 8, 2014",2014/2015,washington-wizards,boston-celtics,1322,133
+400578594,"Dec 8, 2014",2014/2015,washington-wizards,boston-celtics,133,132
 400578621,"Dec 12, 2014",2014/2015,washington-wizards,los-angeles-clippers,104,96
 400578642,"Dec 14, 2014",2014/2015,washington-wizards,utah-jazz,93,84
 400578655,"Dec 16, 2014",2014/2015,washington-wizards,minnesota-timberwolves,109,95
@@ -5862,7 +5862,7 @@ NA,"Dec 13, 2013",2013/2014,orlando-magic,cleveland-cavaliers,100,109
 400579269,"Mar 14, 2015",2014/2015,washington-wizards,sacramento-kings,113,97
 400579283,"Mar 16, 2015",2014/2015,washington-wizards,portland-trail-blazers,105,97
 400579355,"Mar 25, 2015",2014/2015,washington-wizards,indiana-pacers,101,103
-400579368,"Mar 27, 2015",2014/2015,washington-wizards,charlotte-hornets,1072,110
+400579368,"Mar 27, 2015",2014/2015,washington-wizards,charlotte-hornets,110,107
 400579389,"Mar 29, 2015",2014/2015,washington-wizards,houston-rockets,91,99
 400579406,"Apr 1, 2015",2014/2015,washington-wizards,philadelphia-76ers,106,93
 400579420,"Apr 3, 2015",2014/2015,washington-wizards,new-york-knicks,101,87
@@ -5904,7 +5904,7 @@ NA,"Dec 13, 2013",2013/2014,orlando-magic,cleveland-cavaliers,100,109
 400828893,"Mar 16, 2016",2015/2016,washington-wizards,chicago-bulls,117,96
 400828919,"Mar 19, 2016",2015/2016,washington-wizards,new-york-knicks,99,89
 400828943,"Mar 23, 2016",2015/2016,washington-wizards,atlanta-hawks,101,122
-400828960,"Mar 25, 2016",2015/2016,washington-wizards,minnesota-timberwolves,132,1292
+400828960,"Mar 25, 2016",2015/2016,washington-wizards,minnesota-timberwolves,129,132
 400829054,"Apr 6, 2016",2015/2016,washington-wizards,brooklyn-nets,121,103
 400829081,"Apr 10, 2016",2015/2016,washington-wizards,charlotte-hornets,113,98
 400829108,"Apr 13, 2016",2015/2016,washington-wizards,atlanta-hawks,109,98
