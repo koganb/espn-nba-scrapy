@@ -12,7 +12,7 @@ import re
 SCORE_PATTERN = re.compile("^\d+-\d+$")
 GAME_ID_PATTERN = re.compile("/nba/recap\?id=\d+")
 
-def retrieve_games_stats(year, team_name, team_pref1, team_pref2, data_dir, years_back):
+def retrieve_games_stats(year, team_pref1, team_pref2, data_dir, years_back):
 
 
     for y in range(year - years_back + 1 , year + 1 ) :
@@ -44,13 +44,14 @@ def retrieve_games_stats(year, team_name, team_pref1, team_pref2, data_dir, year
 
                 win_status = game.xpath('td/ul/li[contains(@class,"game-status")]/span/text()')[0].strip()
                 home_or_visit = game.xpath('td/ul/li[@class="game-status"]/text()')[0].strip()
-                opponent_team = game.xpath('td/ul/li[@class="team-name"]/a/text()')[0].strip()
+                opponent_team_href = game.xpath('td/ul/li[@class="team-name"]/a/@href')[0].strip()
+                opponent_team = str(opponent_team_href).split('/')[-1]
                 score = re.sub('[^0-9-]', '',game.xpath('td/ul/li[@class="score"]/a/text()')[0].strip())
                 first_score = score.split('-')[0] if SCORE_PATTERN.match(score) else 'NA'
                 second_score = score.split('-')[1] if SCORE_PATTERN.match(score) else 'NA'
 
                 if home_or_visit == 'vs':   #list only home games
-                    game_stats['HOME_TEAM'] = team_name
+                    game_stats['HOME_TEAM'] = team_pref2
                     game_stats['VISIT_TEAM'] = opponent_team
 
                     if first_score == 'NA' or second_score == 'NA' :
@@ -99,15 +100,14 @@ def main() :
     args = parser.parse_args()
 
     if (args.team != None and args.team_pref1 != None and args.team_pref2 != None)  :
-        retrieve_games_stats(args.year, args.team, args.team_pref1, args.team_pref2, args.data_dir, args.years_back)
+        retrieve_games_stats(args.year, args.team_pref1, args.team_pref2, args.data_dir, args.years_back)
 
     else:
          with open(args.data_dir+'/teams.csv', 'rb') as teamsfile:
             games_reader = csv.DictReader(teamsfile)
-            next(games_reader, None)    #skip header
 
             for row in games_reader:
-                retrieve_games_stats(args.year, row['NAME'], row['PREFIX_1'], row['PREFIX_2'], args.data_dir, args.years_back)
+                retrieve_games_stats(args.year,  row['PREFIX_1'], row['PREFIX_2'], args.data_dir, args.years_back)
 
 if __name__ == "__main__":
     main()
