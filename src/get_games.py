@@ -3,9 +3,10 @@ import requests
 import collections
 from lxml import html
 import csv
+import re
 
 
-BASE_URL = 'http://espn.go.com/nba/team/schedule/_/name/{0}/year/{1}/{2}'
+BASE_URL = 'http://espn.go.com/nba/team/schedule/_/name/{0}/year/{1}/seasontype/2/{2}'
 
 import re
 SCORE_PATTERN = re.compile("^\d+-\d+$")
@@ -24,30 +25,58 @@ def retrieve_games_stats(year, team_name, team_pref1, team_pref2, data_dir, year
 
         for game in tree.xpath('//div[@class="mod-container mod-table mod-no-header-footer"]/div[@class="mod-content"]/table/tr[not(@class="stathead") and not(@class="colhead")]'):
 
-            game_stats = collections.OrderedDict()
+            if not game.xpath('td[@colspan="9"]') :  # game is not postponed
 
-            game_id_list = game.xpath('td/ul/li[@class="score"]/a/@href')
-            game_stats['GAME_ID'] = game_id_list[0].split('=')[1] if (len(game_id_list) > 0 and GAME_ID_PATTERN.match(game_id_list[0])) else 'NA'
+                game_stats = collections.OrderedDict()
 
-            game_date =  game.xpath('td[string-length( text()) > 7]/text()')[0].strip()
-            month = game_date.split(' ')[1]
-            weekday = game_date.split(' ')[0]
-            if (month == 'Oct' or month == 'Nov' or month == 'Dec') :
-                game_stats['DATE'] = game_date.replace(weekday, '').strip() + ", " + str(y - 1)
-            else:
-                game_stats['DATE'] = game_date.replace(weekday, '').strip() + ", " + str(y)
+                game_id_list = game.xpath('td/ul/li[@class="score"]/a/@href')
+                game_stats['GAME_ID'] = game_id_list[0].split('=')[1] if (len(game_id_list) > 0 and GAME_ID_PATTERN.match(game_id_list[0])) else 'NA'
 
-            game_stats['PLAY_SEASON'] = str(y - 1) + '/' + str(y)
+                game_date =  game.xpath('td[string-length( text()) > 7]/text()')[0].strip()
+                month = game_date.split(' ')[1]
+                weekday = game_date.split(' ')[0]
+                if (month == 'Oct' or month == 'Nov' or month == 'Dec') :
+                    game_stats['DATE'] = game_date.replace(weekday, '').strip() + ", " + str(y - 1)
+                else:
+                    game_stats['DATE'] = game_date.replace(weekday, '').strip() + ", " + str(y)
 
-            game_stats['HOME_TEAM'] = team_name
+                game_stats['PLAY_SEASON'] = str(y - 1) + '/' + str(y)
 
-            score_list = game.xpath('td/ul/li[@class="score"]/a/text()')
-            game_stats['HOME_TEAM_SCORE'] = score_list[0].split('-')[0] if (len(score_list) > 0 and SCORE_PATTERN.match(score_list[0])) else 'NA'
-            game_stats['VISIT_TEAM'] = game.xpath('td/ul/li[@class="team-name"]/a/text()')[0].strip()
-            game_stats['VISIT_TEAM_SCORE'] = score_list[0].split('-')[1] if (len(score_list) > 0 and  SCORE_PATTERN.match(score_list[0])) else 'NA'
+                win_status = game.xpath('td/ul/li[contains(@class,"game-status")]/span/text()')[0].strip()
+                home_or_visit = game.xpath('td/ul/li[@class="game-status"]/text()')[0].strip()
+                opponent_team = game.xpath('td/ul/li[@class="team-name"]/a/text()')[0].strip()
+                score = re.sub('[^0-9-]', '',game.xpath('td/ul/li[@class="score"]/a/text()')[0].strip())
+                first_score = score.split('-')[0] if SCORE_PATTERN.match(score) else 'NA'
+                second_score = score.split('-')[1] if SCORE_PATTERN.match(score) else 'NA'
+
+                if home_or_visit == 'vs':   #list only home games
+                    game_stats['HOME_TEAM'] = team_name
+                    game_stats['VISIT_TEAM'] = opponent_team
+
+                    if first_score == 'NA' or second_score == 'NA' :
+                        game_stats['HOME_TEAM_SCORE'] = 'NA'
+                        game_stats['VISIT_TEAM_SCORE'] = 'NA'
+
+                    elif win_status == 'L':
+                        game_stats['HOME_TEAM_SCORE'] = min(int(first_score), int(second_score))
+                        game_stats['VISIT_TEAM_SCORE'] = max(int(first_score), int(second_score))
+
+                    elif win_status == 'W':
+                        game_stats['HOME_TEAM_SCORE'] = max(int(first_score), int(second_score))
+                        game_stats['VISIT_TEAM_SCORE'] = min(int(first_score), int(second_score))
+
+                    else:
+                        raise Exception('Unknown winning status: ' + win_status )
+
+                    game_stats_list.append(game_stats)
+
+                # score_list[0] = re.sub('[^0-9-]', '', score_list[0]) # remove everething except hythen and numbers
+                # game_stats['HOME_TEAM_SCORE'] = score_list[0].split('-')[0] if (len(score_list) > 0 and SCORE_PATTERN.match(score_list[0])) else 'NA'
+                # game_stats['VISIT_TEAM'] = game.xpath('td/ul/li[@class="team-name"]/a/text()')[0].strip()
+                # game_stats['VISIT_TEAM_SCORE'] = score_list[0].split('-')[1] if (len(score_list) > 0 and  SCORE_PATTERN.match(score_list[0])) else 'NA'
 
 
-            game_stats_list.append(game_stats)
+
 
 
         if game_stats_list :
