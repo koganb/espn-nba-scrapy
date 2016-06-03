@@ -1,4 +1,6 @@
 import argparse
+
+import re
 import requests
 import collections
 from lxml import html
@@ -27,6 +29,17 @@ BASE_URL = 'http://espn.go.com/nba/boxscore?gameId={0}'
 
 players_counter = 0
 
+
+teamsNameDict= dict()
+teamsTokenDict= dict()
+with open('teams.csv', mode='r') as teamsFile:
+    reader = csv.DictReader(teamsFile)
+    for rows in reader:
+        teamsNameDict[rows['NAME'].split(' ')[-1].lower()] = rows['PREFIX_2']
+        teamsTokenDict[rows['PREFIX_1']] = rows['PREFIX_2']
+
+
+
 def retrieve_players_stats( game_id, data_dir ):
 
     url = BASE_URL.format(game_id)
@@ -44,6 +57,13 @@ def retrieve_players_stats( game_id, data_dir ):
 
     for team in tree.xpath('//div[@id="gamepackage-box-score"]/article/div[@id="gamepackage-boxscore-module"]/div[@class="row-wrapper"]/div/div[@class="sub-module"]/div[@class="content hide-bench"]'):
 
+        teamImg = team.xpath('div[@class="table-caption"]/div[@class="team-name"]/img/@src')
+        if not len(teamImg) == 0 :
+            teamToken = re.findall(r'\w+\.png', teamImg[0])[0].replace('.png', '') # get team prefix from image
+            teamName=teamsTokenDict[teamToken]
+        else:
+            teamName = teamsNameDict[team.xpath('div[@class="table-caption"]/text()')[0].strip().lower()]
+
         for index, player_table in enumerate(team.xpath('table/tbody')):
 
             for player in player_table.xpath('tr[not(@class="highlight")]'):
@@ -52,7 +72,7 @@ def retrieve_players_stats( game_id, data_dir ):
                     player_stats = collections.OrderedDict()
                     player_stats['GAME_ID']= game_id
 
-                    player_stats['TEAM']=team.xpath('div[@class="table-caption"]/text()')[0].strip()
+                    player_stats['TEAM']=teamName
                     player_stats['NAME']=player.xpath('td[@class="name"]/a/text()')[0].strip()
                     player_stats['POSITION']=player.xpath('td[@class="name"]/span[@class="position"]/text()')[0].strip()
                     player_stats['STARTER']=team.xpath('table/thead/tr/th[@class="name"]/text()')[index].strip() == 'starters'
