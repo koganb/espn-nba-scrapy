@@ -94,12 +94,11 @@ def main() :
     parser.add_argument('--data_dir', help='data directory', required=True)
     parser.add_argument('--year', help='Year YYYY', required=True, type=int)
     parser.add_argument('--years_back', help='Number of years back from year argument to bring stats', required=False, type=int,default=1)
-    parser.add_argument('--team', help='Team name ex.("Boston Celtics")', required=False)
     parser.add_argument('--team_pref1', help='Team pref1 ex.("bos")', required=False)
     parser.add_argument('--team_pref2', help='Team pref2 ex.("boston-celtics")', required=False)
     args = parser.parse_args()
 
-    if (args.team != None and args.team_pref1 != None and args.team_pref2 != None)  :
+    if (args.team_pref1 != None and args.team_pref2 != None)  :
         retrieve_games_stats(args.year, args.team_pref1, args.team_pref2, args.data_dir, args.years_back)
 
     else:

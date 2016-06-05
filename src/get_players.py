@@ -2,6 +2,7 @@ import argparse
 
 import re
 import requests
+from requests.adapters import HTTPAdapter
 import collections
 from lxml import html
 import csv
@@ -39,6 +40,8 @@ with open('teams.csv', mode='r') as teamsFile:
         teamsTokenDict[rows['PREFIX_1']] = rows['PREFIX_2']
 
 
+s = requests.Session()
+s.mount('http://', HTTPAdapter(max_retries=20))
 
 def retrieve_players_stats( game_id, data_dir ):
 
@@ -46,7 +49,7 @@ def retrieve_players_stats( game_id, data_dir ):
 
     try:
         logger.debug("Getting url %s, counter %s", url, players_counter)
-        request = requests.get(url)
+        request = s.get(url)
     except:
         logger.error ("Error retrieving URL: %s", url)
         return
@@ -73,7 +76,13 @@ def retrieve_players_stats( game_id, data_dir ):
                     player_stats['GAME_ID']= game_id
 
                     player_stats['TEAM']=teamName
-                    player_stats['NAME']=player.xpath('td[@class="name"]/a/text()')[0].strip()
+                    nameVal = player.xpath('td[@class="name"]/a/text()')
+                    if len(nameVal) > 0: # sometimes there is null in name
+                        player_stats['NAME']= nameVal[0].strip()
+                    else :
+                        logger.error("Error retrieving name for game: %s", game_id)
+                        continue
+                    player_stats['ID']=str(player.xpath('td[@class="name"]/a/@href')[0].strip()).split('/')[-1]
                     player_stats['POSITION']=player.xpath('td[@class="name"]/span[@class="position"]/text()')[0].strip()
                     player_stats['STARTER']=team.xpath('table/thead/tr/th[@class="name"]/text()')[index].strip() == 'starters'
 
